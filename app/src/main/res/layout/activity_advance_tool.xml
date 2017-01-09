@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+       style="@style/text_title_style"
+        android:text="@string/title_advance_tool"/>
+    <TextView
+        android:id="@+id/tvCheckNumberAddress"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        style="@style/text_content_style"
+        android:paddingTop="5dip"
+        android:text="@string/address_check" />
+    <TextView
+        android:id="@+id/tvCommonNumber"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        style="@style/text_content_style"
+        android:paddingTop="5dip"
+        android:text="@string/common_number" />
+    <TextView
+        android:id="@+id/tvBlackNumber"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        style="@style/text_content_style"
+        android:paddingTop="5dip"
+        android:text="@string/blackList" />
+    <TextView
+        android:id="@+id/tvMsgBackup"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        style="@style/text_content_style"
+        android:paddingTop="5dip"
+        android:text="@string/msgBackUp" />
+</LinearLayout>
